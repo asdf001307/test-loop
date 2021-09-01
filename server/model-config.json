@@ -38,5 +38,9 @@
   "test": {
     "dataSource": "mariadb",
     "public": true
+  },
+  "customer": {
+    "dataSource": "mariadb",
+    "public": true
   }
 }

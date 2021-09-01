@@ -1,6 +1,3 @@
-
-
-
 {
   "initial:before": {
     "loopback#favicon": {}
@@ -44,17 +41,21 @@
     }
   },
   "files": {
-    "loopback#static" : [{
-      "name" : "publicPath",
-      "paths" : ["/"],
-      "params" : "$!../client/dist"
-    },
+    "loopback#static": [
       {
-        "name" : "veuRouter",
-        "paths" : ["*"],
-        "params" : "$!../client/dist/index.html",
-        "optional" : true
-      }]
+        "paths": [
+          "/"
+        ],
+        "params": "$!../client/dist"
+      },
+      {
+        "paths": [
+          "*"
+        ],
+        "params": "$!../client/dist/index.html",
+        "optional": true
+      }
+    ]
   },
   "final": {
     "loopback#urlNotFound": {}
