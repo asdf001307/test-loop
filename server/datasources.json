@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mariadb": {
+    "host": "192.168.3.131",
+    "port": 3306,
+    "url": "",
+    "database": "dev",
+    "password": "asdf1307",
+    "name": "mariadb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
