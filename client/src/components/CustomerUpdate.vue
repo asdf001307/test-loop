@@ -83,22 +83,6 @@
           console.log(error);
         })
     },
-          //     Login() {
-          //   let filter = {
-          //     where: {
-          //       name: this.user.name
-          //     }
-          //   };
-          //   axios.get('api/tests?filter=' + JSON.stringify(filter)).then(response => {
-          //     //(this.test = response.data)
-          //     console.log(response.data[0]['passwd']);
-          //     //console.log(response.data)
-          //     if (this.user.password === response.data[0]['passwd']){
-          //       console.log('success');
-          //       return router.push("/mainpage");
-          //     }
-          //   })
-          // },
 
         methods: {
             onUpdate() {
